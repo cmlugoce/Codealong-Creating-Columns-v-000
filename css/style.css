@@ -125,6 +125,15 @@ img, video, audio {
 
 
 /*SEctions*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+}
+
 section {
   padding: 20px;
   margin-bottom: 20px;
@@ -138,7 +147,7 @@ section {
   right: 20px;
   width: 40px;
   z-index: 1;
-  
+
 }
 
 
